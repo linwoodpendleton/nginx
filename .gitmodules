@@ -1,0 +1,3 @@
+[submodule "ngx_brotli"]
+	path = ngx_brotli
+	url = https://github.com/linwoodpendleton/ngx_brotli.git
