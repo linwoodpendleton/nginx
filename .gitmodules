@@ -9,4 +9,4 @@
 	url = https://github.com/linwoodpendleton/ngx_http_geoip2_module.git
 [submodule "ngx_devel_kit"]
 	path = ngx_devel_kit
-	url = git@github.com:linwoodpendleton/ngx_devel_kit.git
+	url = https://github.com/linwoodpendleton/ngx_devel_kit.git
