@@ -370,6 +370,7 @@ struct ngx_http_core_loc_conf_s {
     ngx_msec_t    send_timeout;            /* send_timeout */
     ngx_msec_t    keepalive_time;          /* keepalive_time */
     ngx_msec_t    keepalive_timeout;       /* keepalive_timeout */
+    ngx_msec_t    keepalive_min_timeout;   /* keepalive_min_timeout */
     ngx_msec_t    lingering_time;          /* lingering_time */
     ngx_msec_t    lingering_timeout;       /* lingering_timeout */
     ngx_msec_t    resolver_timeout;        /* resolver_timeout */
@@ -428,6 +429,8 @@ struct ngx_http_core_loc_conf_s {
     ngx_uint_t    disable_symlinks;        /* disable_symlinks */
     ngx_http_complex_value_t  *disable_symlinks_from;
 #endif
+
+    ngx_array_t  *early_hints;             /* early_hints */
 
     ngx_array_t  *error_pages;             /* error_page */
 
