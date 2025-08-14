@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="integration">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ngx_brotli/deps/brotli/java/org/brotli/integration/fuzz_data.zip!/" />
+      <root url="jar://$PROJECT_DIR$/ngx_brotli/deps/brotli/java/org/brotli/integration/test_data.zip!/" />
+      <root url="jar://$PROJECT_DIR$/ngx_brotli/deps/brotli/java/org/brotli/integration/test_corpus.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

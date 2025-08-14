@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/nginx.iml" filepath="$PROJECT_DIR$/.idea/nginx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ngx_brotli/ngx_brotli.iml" filepath="$PROJECT_DIR$/ngx_brotli/ngx_brotli.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openssl/pyca-cryptography/pyca-cryptography.iml" filepath="$PROJECT_DIR$/openssl/pyca-cryptography/pyca-cryptography.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openssl/wycheproof/wycheproof.iml" filepath="$PROJECT_DIR$/openssl/wycheproof/wycheproof.iml" />
+    </modules>
+  </component>
+</project>
