@@ -70,7 +70,10 @@ install_nginx() {
   # 源码准备
   cd ~
   [[ -d nginx ]] || git clone https://github.com/linwoodpendleton/nginx.git --recursive
-
+  cd nginx/lua-nginx-module
+  git fetch --tags
+  git checkout v0.10.28 
+  cd ~
   # LuaJIT
   [[ -d luajit2 ]] || git clone https://github.com/openresty/luajit2.git
   cd luajit2 && make && make install && cd -
