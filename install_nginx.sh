@@ -8,7 +8,9 @@ set -euo pipefail
 # =========================
 
 export PATH=$PATH:/sbin:/usr/sbin
-
+# 环境变量（auto/modules 会读取）
+export LUAJIT_INC=/usr/local/include/luajit-2.1
+export LUAJIT_LIB=/usr/local/lib
 # ---------- 参数 ----------
 NGINX_FLAG=0
 WITH_MODSECURITY="off"   # off|on
