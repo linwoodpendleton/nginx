@@ -84,9 +84,9 @@ install_nginx() {
   # 固定到与 lua-nginx-module 0.10.28 兼容的稳定 tag，避免 runtime 报错
   rm -rf lua-resty-core lua-resty-lrucache
   git clone https://github.com/openresty/lua-resty-core.git
-  (cd lua-resty-core && git fetch --tags && git checkout v0.1.26 && make install LUA_LIB_DIR=/usr/local/share/lua/5.1)
+  (cd lua-resty-core && git fetch --tags && git checkout v0.1.31 && make install LUA_LIB_DIR=/usr/local/share/lua/5.1)
   git clone https://github.com/openresty/lua-resty-lrucache.git
-  (cd lua-resty-lrucache && git fetch --tags && git checkout v0.13 && make install LUA_LIB_DIR=/usr/local/share/lua/5.1)
+  (cd lua-resty-lrucache && git fetch --tags && git checkout v0.15 && make install LUA_LIB_DIR=/usr/local/share/lua/5.1)
 
   # 编译 Nginx
   rm -rf /tmp/nginx-quic || true
